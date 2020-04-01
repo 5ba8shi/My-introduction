@@ -26,7 +26,7 @@ export default class Slick extends Component {
               </ul>
             </div>
           <h2 class="slider__greet">
-             Yusuke Harada
+             Ryosuke Kobayashi
             </h2>
             <img src="photo2.jpg"/>
             <div class="anime-line"></div>
@@ -41,7 +41,7 @@ export default class Slick extends Component {
               </ul>
             </div>
           <h2 class="slider__greet">
-            Yusuke Harada
+          Ryosuke Kobayashi
             </h2>
             <img src="photo3.jpg"/>
             <div class="anime-line"></div>
@@ -56,7 +56,7 @@ export default class Slick extends Component {
               </ul>
             </div>
           <h2 class="slider__greet">
-          Yusuke Harada
+          Ryosuke Kobayashi
             </h2>
             <img src="photo4.jpeg"/>
             <div class="anime-line"></div>
@@ -71,7 +71,7 @@ export default class Slick extends Component {
               </ul>
             </div>
           <h2 class="slider__greet">
-          Yusuke Harada
+          Ryosuke Kobayashi
             </h2>
             <img src="photo5.jpeg"/>
             <div class="anime-line"></div>
@@ -86,7 +86,7 @@ export default class Slick extends Component {
               </ul>
             </div>
           <h2 class="slider__greet">
-          Yusuke Harada
+          Ryosuke Kobayashi
             </h2>
             <img src="photo6.jpeg"/>
             <div class="anime-line"></div>

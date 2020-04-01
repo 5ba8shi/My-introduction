@@ -5,14 +5,14 @@ class Intro extends React.Component{
       <div class="black">
         <div class="black__container">
           <div class="black__container__comment1">
-            <p class="black__container__comment1__p">はじめまして、原田祐輔と申します。</p>
-            <p class="black__container__comment1__p">愛知県豊川市出身の２２歳で</p>
-            <p class="black__container__comment1__p">現在、関西外国語大学に在学中です。</p>
+            <p class="black__container__comment1__p">はじめまして、小林亮介と申します。</p>
+            <p class="black__container__comment1__p">兵庫県川西市出身の29歳で</p>
+            <p class="black__container__comment1__p">現在、プログラマーを目指して転職活動中です。</p>
           </div>
           <div class="black__container__comment1">
-            <p class="black__container__comment1__p">大学では語学を学んでいます。</p>
-            <p class="black__container__comment1__p">中国、カナダ、フィリピンに</p>
-            <p class="black__container__comment1__p">留学経験があります。</p>
+            <p class="black__container__comment1__p">今までに訪問した主な国</p>
+            <p class="black__container__comment1__p">アメリカ、カナダ、ドイツ、イギリス、</p>
+            <p class="black__container__comment1__p">カナダに3ヶ月の留学経験があります。</p>
           </div>
           <div class="black__container__comment1">
             <p class="black__container__comment1__p">フィリピン留学時に</p>

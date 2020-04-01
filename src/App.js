@@ -56,7 +56,7 @@ class App extends React.Component {
           <div class="main__contents">
             <h1 class="main__contents__about">About</h1>
             <div class="main__contents__left">
-              <img src="profile-photo.png" width="310px" height="230px"/>
+              <img src="small-otter.jpg" width="310px" height="230px"/>
 
               <FadeIn.Up>
                 <Skill/>
