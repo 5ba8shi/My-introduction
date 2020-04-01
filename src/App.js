@@ -39,7 +39,7 @@ class App extends React.Component {
       {
         name:"Portfolio",
         image:"portfolio.jpg",
-        introduction:"ReactでPortfolioを作成しました。シングルページでで作ることでページを移動せずに内容が把握できるようにしました。",
+        introduction:"ReactでPortfolioを作成しました。シングルページで作ることでページを移動せずに内容が把握できるようにしました。",
         title:"React開発[Portfolio]",
         language:"React"
       }
@@ -64,11 +64,11 @@ class App extends React.Component {
             </div>
             <FadeIn.Up>
             <div class="main__contents__right">
-              <h5>Yusuke Harada</h5>
-              <p>1997/04/06</p>
-              <p>愛知県豊川市生まれ</p>
-              <p>関西外国語大学 4回生</p>
-              <p　class="about1">大学２回生の時にカナダと中国に半年間ずつ留学</p>
+              <h5>Ryosuke Kobayashi</h5>
+              <p>1991/02/09</p>
+              <p>兵庫県川西市生まれ</p>
+              <p>2014年3月、大阪経済大学経済学部経済学科 卒業</p>
+              <p　class="about1">大学4回生の時にカナダへ3ヶ月留学</p>
               <p>4回生を休学する</p>
               <p>セブに英語とプログラミングを勉強するために留学</p>
               <p>現在帰国しtechexpertに在学中</p>
