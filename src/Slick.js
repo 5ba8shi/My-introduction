@@ -25,58 +25,62 @@ export default class Slick extends Component {
                 <li><a href="#works">Works</a></li>
               </ul>
             </div>
-          <h2 class="slider__greet">
+            <h2 class="slider__greet">
              Ryosuke Kobayashi
             </h2>
             <img src="photo2.jpg"/>
             <div class="anime-line"></div>
             <h2>Hello</h2>
           </div>
+
           <div class="slider">
-          <div class="slider__header">
+            <div class="slider__header">
               <ul>
                 <li><a href="#top">Top</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#works">Works</a></li>
               </ul>
             </div>
-          <h2 class="slider__greet">
-          Ryosuke Kobayashi
+            <h2 class="slider__greet">
+              Ryosuke Kobayashi
             </h2>
             <img src="photo3.jpg"/>
             <div class="anime-line"></div>
             <h2>Hello</h2>
           </div>
+
           <div class="slider">
-          <div class="slider__header">
+            <div class="slider__header">
               <ul>
                 <li><a href="#top">Top</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#works">Works</a></li>
               </ul>
             </div>
-          <h2 class="slider__greet">
-          Ryosuke Kobayashi
+            <h2 class="slider__greet">
+             Ryosuke Kobayashi
             </h2>
             <img src="photo4.jpeg"/>
             <div class="anime-line"></div>
             <h2>Hello</h2>
           </div>
+
           <div class="slider">
-          <div class="slider__header">
+            <div class="slider__header">
               <ul>
                 <li><a href="#top">Top</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#works">Works</a></li>
               </ul>
             </div>
-          <h2 class="slider__greet">
-          Ryosuke Kobayashi
+            <h2 class="slider__greet">
+              Ryosuke Kobayashi
             </h2>
             <img src="photo5.jpeg"/>
             <div class="anime-line"></div>
             <h2>Hello</h2>
           </div>
+
           <div class="slider">
           <div class="slider__header">
               <ul>
