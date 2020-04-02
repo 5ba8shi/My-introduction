@@ -30,11 +30,12 @@ class App extends React.Component {
         url:"http://18.177.78.202/"
       },
       {
-        name:"TASK-APP",
-        image:"task.jpg",
-        introduction:"１つ目の個人アプリです。概要は概要はカテゴリーごとにタスクを追加できてそれを編集したり削除したりとよくあるtodoアプリと同様の機能をつけました。",
+        name:"Mina De Tweet!!",
+        image:"mina-de-tweet.png",
+        introduction:"１つ目の個人アプリです。インスタグラムのような日々の日常を画像URLにて共有。そして画像に対してコメントや返答ができます。",
         title:"個人開発アプリ１つ目",
-        language:"HTML,Haml,scss,Ruby,Rails,javascript"
+        language:"HTML,Haml,scss,Ruby,Rails,javascript",
+        url:"http://18.177.111.188/"
       },
       {
         name:"Portfolio",
