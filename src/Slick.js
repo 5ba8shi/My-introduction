@@ -34,14 +34,14 @@ export default class Slick extends Component {
           </div>
 
           <div class="slider2">
-            <div class="slider2__header">
+            <div class="slider2__header2">
               <ul>
                 <li><a href="#top">Top</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#works">Works</a></li>
               </ul>
             </div>
-            <h2 class="slider2__greet">
+            <h2 class="slider2__greet2">
               Ryosuke Kobayashi
             </h2>
             <img src="Aurora.jpg"/>

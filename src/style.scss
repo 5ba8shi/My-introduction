@@ -7,7 +7,7 @@
     visibility: hidden;
   } 
 }
-// 1つ目の写真
+// ---------------------------------------1つ目の写真
 .slider{
   width: 100vw;
   height: 60vh;
@@ -70,11 +70,11 @@
 //   background-color: red; 
 // }
 
-// 2つ目の写真
+//-------------------------------------- 2つ目の写真
 .slider2{
   width: 100vw;
   height: 60vh;
-  &__header{
+  &__header2{
     position: absolute;
     top: 20px;
     z-index: 4;
