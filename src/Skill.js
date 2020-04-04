@@ -28,7 +28,7 @@ class Skill extends React.Component{
             </div>
           </div>
           <div class="main__contents__left__skills__progress3">
-            <h4 class="main__contents__left__skills__progress3--h4">WordPress</h4>
+            <h4 class="main__contents__left__skills__progress3--h4">PHP</h4>
             <div class="main__contents__left__skills__progress3__border">
             <div class="main__contents__left__skills__progress3__border__rate">
               </div>
@@ -42,19 +42,13 @@ class Skill extends React.Component{
             </div>
           </div>
           <div class="main__contents__left__skills__progress5">
-            <h4 class="main__contents__left__skills__progress4--h4">PHP</h4>
-            <div class="main__contents__left__skills__progress4__border">
-            <div class="main__contents__left__skills__progress4__border__rate">
+            <h4 class="main__contents__left__skills__progress5--h4">React</h4>
+            <div class="main__contents__left__skills__progress5__border">
+            <div class="main__contents__left__skills__progress5__border__rate">
               </div>
             </div>
           </div>
-          <div class="main__contents__left__skills__progress6">
-            <h4 class="main__contents__left__skills__progress4--h4">English</h4>
-            <div class="main__contents__left__skills__progress4__border">
-            <div class="main__contents__left__skills__progress4__border__rate">
-              </div>
-            </div>
-          </div>
+
         </div>
       </div>
     );
