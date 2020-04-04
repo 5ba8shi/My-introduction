@@ -28,7 +28,7 @@ class Skill extends React.Component{
             </div>
           </div>
           <div class="main__contents__left__skills__progress3">
-            <h4 class="main__contents__left__skills__progress3--h4">PHP</h4>
+            <h4 class="main__contents__left__skills__progress3--h4">Laravel</h4>
             <div class="main__contents__left__skills__progress3__border">
             <div class="main__contents__left__skills__progress3__border__rate">
               </div>
