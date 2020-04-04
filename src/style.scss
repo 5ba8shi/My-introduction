@@ -1,3 +1,4 @@
+// Aboutの
 @mixin clearfix{
   &:after {
     content: ".";
@@ -7,6 +8,8 @@
     visibility: hidden;
   } 
 }
+
+// トップページの動く画像の設定
 .slider{
   width: 100vw;
   height: 60vh;
@@ -26,6 +29,7 @@
         list-style-type: none;
         a{
           color: white;
+          text-decoration: none;
         }
       }
       li:hover{
@@ -44,15 +48,25 @@
     text-align: center;
     color: whitesmoke;
   }
+  img{
+    transform-origin: center top;
+    transform: scale(1.2);
+    transition: 5s ease-out;
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
 }
-.slider img{
-  transform-origin: center top;
-  transform: scale(1.2);
-  transition: 5s ease-out;
-  width: 100%;
-  height: 100%;
-  position: relative;
+
+.second-img{
+  margin-top: -620px;
+  margin-right: -2800px;
+  padding-top: -120px;
+  padding-bottom: -400px;
 }
+
+
+
 .slick-active img{
   transform: scale(1.0);
 }
