@@ -42,7 +42,8 @@ class App extends React.Component {
         image:"portfolio.jpg",
         introduction:"ReactでPortfolioを作成しました。シングルページで作ることでページを移動せずに内容が把握できるようにしました。",
         title:"React開発[Portfolio]",
-        language:"React"
+        language:"React",
+        url:"#top"
       }
     ];
     
