@@ -69,7 +69,7 @@ class App extends React.Component {
                 <Skill/>
               </FadeIn.Up>
             </div>
-            <FadeIn.Up>
+            <FadeIn.Right>
               <div class="main__contents__right">
                 <h5>Ryosuke Kobayashi</h5>
                 <p>1991/02/09</p>
@@ -85,13 +85,13 @@ class App extends React.Component {
                   {/* <li><FontAwesomeIcon icon={['fab', 'instagram']} /></li> */}
                 </ul>
               </div>
-            </FadeIn.Up>
+            </FadeIn.Right>
           </div>
         </div>
 
         <div class="portfolio" id="works">
+          <h3>Works</h3>
           <FadeIn.Up>
-            <h3>Works</h3>
             <div class="portfolio__list">
               {portfolioList.map((portfolioitem)=>{
                 return(
