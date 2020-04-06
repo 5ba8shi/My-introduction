@@ -8,6 +8,22 @@
     visibility: hidden;
   } 
 }
+
+// -----------------最上部のintroduction-----------------
+.yellow{
+  height: 10vh;
+  width: 100%;
+  background-color: yellow;
+  margin-top: -53px;
+  padding-bottom: 16px;
+  &__title{
+    font-size:  80px;
+    font-family: 'Lobster', cursive;
+  }
+}
+
+
+// -----------------2段目ののintroduction-----------------
 .slider{
   width: 100vw;
   height: 85vh;
@@ -98,19 +114,10 @@
 //   background-color: red; 
 // }
 
-.yellow{
-  height: 10vh;
-  width: 100%;
-  background-color: yellow;
-  margin-top: -53px;
-  padding-bottom: 16px;
-  &__title{
-    font-size:  80px;
-    font-family: 'Lobster', cursive;
-  }
-}
 
 
+
+// ---------------中間のAboutなど-------------------
 .main{
   height: 100vh;
   margin: 0 auto;
@@ -352,6 +359,8 @@
 }
 
 
+
+// --------------- 一番下のWorks -------------------------
 .portfolio{
   height: 100vh;
   background-color: black;
