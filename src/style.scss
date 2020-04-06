@@ -29,10 +29,27 @@
         a{
           color: white;
           text-decoration: none;
+          display: inline-block;
+          position: relative;
+          text-decoration: none;
+          text-shadow:2px 2px 3px #1844f5;
         }
-      }
-      li:hover{
-        opacity: 0.6;
+        a::after {
+          position: absolute;
+          content: '';
+          bottom: 0;
+          left: 0;
+          width: 0;
+          height: 3px;
+          background: rgb(243, 33, 33);
+          transition: all 0.3s ease 0s;
+        }
+        a:hover {
+          cursor: pointer;
+        }
+        a:hover::after {
+          width: 100%;
+        }
       }
     }
   }
