@@ -162,9 +162,9 @@
       text-align: center;
       color: white;
       margin: 0;
-      padding-top: 2%;
-      font-size: 50px;
-      font-family: 'Open Sans', sans-serif;
+      padding-top: 1%;
+      font-size: 80px;
+      font-family: 'Oswald', sans-serif;
       font-weight: 70;
       margin-bottom: 30px;
     }
@@ -369,20 +369,20 @@
     text-align: center;
     color: white;
     margin: 0;
-    font-size: 50px;
-    font-family: 'Open Sans', sans-serif;
+    font-size: 90px;
+    font-family: 'Oswald', sans-serif;
     font-weight: 70;
-    padding-top: 40px;
+    padding-top: 50px;
   }
   &__list{
     display: flex;
-    margin-top:5%;
+    margin-top:8%;
     &__items{
       margin: 0 auto;
       &__item{
         color: white;
-        width: 320px;
-        height: 200px;
+        width: 420px;
+        height: 300px;
         &__img{
           width: 100%;
           height: 100%;
@@ -393,6 +393,10 @@
           transform: translateY(-10px);
           transition-duration: 0.5s;
         }
+        &__name{
+          padding-top: 10px;
+          font-size: 23px;          
+        }
       }
     }
     &__items:nth-of-type(2){
@@ -401,10 +405,10 @@
   }
 }
 
-
+// --------------- 一番下のWorks詳細画面 -------------------------
 .modal {
   position: fixed;
-  top: 3px;
+  top: -195px;
   right: 0;
   bottom: 0;
   left: 0;
