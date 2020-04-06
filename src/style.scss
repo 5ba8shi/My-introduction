@@ -36,15 +36,21 @@
       }
     }
   }
-  h2{
-    font-size: 100px;
+  &__greet{
+    font-size: 75px;
     position: absolute;
     box-sizing: border-box;
     z-index: 2;
     font-family: 'Open Sans', sans-serif;
     font-weight: 40;
     text-align: center;
-    color: whitesmoke;
+    margin-top:500px;
+    margin-left:600px;
+    padding-right: 600px;
+    color: black;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
   }
 }
 .slider img{
