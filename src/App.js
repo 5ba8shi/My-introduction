@@ -39,7 +39,7 @@ class App extends React.Component {
       },
       {
         name:"Portfolio",
-        image:"portfolio.jpg",
+        image:"Myportfolio.png",
         introduction:"ReactでPortfolioを作成しました。シングルページで作ることでページを移動せずに内容が把握できるようにしました。",
         title:"React開発[Portfolio]",
         language:"React",
@@ -48,65 +48,70 @@ class App extends React.Component {
     ];
     
     
-  return (
-    <div className="App" id="top">
-      <Slick/>
-      <FadeIn.Left>
-      <Intro/>
-      </FadeIn.Left>
+    return (
+      <div className="App" id="top">
+        <FadeIn.TopDown>
+          <Intro/>
+        </FadeIn.TopDown>
+
+        <FadeIn.Up>
+          <Slick/>
+        </FadeIn.Up>
+
         <div class="main" id="about">
           <div class="main__contents">
             <h1 class="main__contents__about">About</h1>
             <div class="main__contents__left">
-              <img src="small-otter.jpg" width="310px" height="230px"/>
-
+              <FadeIn.Left>
+                <img src="small-otter.jpg" width="310px" height="230px"/>
+              </FadeIn.Left>
               <FadeIn.Up>
                 <Skill/>
-                </FadeIn.Up>
+              </FadeIn.Up>
             </div>
-            <FadeIn.Up>
-            <div class="main__contents__right">
-              <h5>Ryosuke Kobayashi</h5>
-              <p>1991/02/09</p>
-              <p>兵庫県川西市生まれ</p>
-              <p>2014年3月、大阪経済大学経済学部経済学科 卒業</p>
-              <p　class="about1">大学4回生の時にカナダへ3ヶ月留学</p>
-              <p>4回生を休学する</p>
-              <p>セブに英語とプログラミングを勉強するために留学</p>
-              <p>現在帰国しtechexpertに在学中</p>
-              <ul　class="icon-ul">
-                {/* <li><FontAwesomeIcon icon={['fab', 'twitter']} /></li> */}
-                <li><a href="mailto:yusukee0406@gmail.com"><FontAwesomeIcon icon={['fas', 'envelope']} /></a></li>
-                {/* <li><FontAwesomeIcon icon={['fab', 'instagram']} /></li> */}
-              </ul>
-            </div>
-            </FadeIn.Up>
+            <FadeIn.Right>
+              <div class="main__contents__right">
+                <h5>小林 亮介</h5>
+                <p>1991/02/09</p>
+                <p>兵庫県川西市生まれ</p>
+                <p>2014年3月、大阪経済大学経済学部経済学科 卒業</p>
+                <p class="about1">大学4回生の時にカナダへ3ヶ月留学</p>
+                <p>4回生を休学する</p>
+                <p>セブに英語とプログラミングを勉強するために留学</p>
+                <p>現在帰国しtechexpertに在学中</p>
+                <ul class="icon-ul">
+                  {/* <li><FontAwesomeIcon icon={['fab', 'twitter']} /></li> */}
+                  <li><a href="mailto:yusukee0406@gmail.com"><FontAwesomeIcon icon={['fas', 'envelope']} /></a></li>
+                  {/* <li><FontAwesomeIcon icon={['fab', 'instagram']} /></li> */}
+                </ul>
+              </div>
+            </FadeIn.Right>
           </div>
-      </div>
-      <div class="portfolio" id="works">
-      <FadeIn.Up>
-        <h3>Works</h3>
-        <p></p>
-        <div class="portfolio__list">
-          {portfolioList.map((portfolioitem)=>{
-            return(
-              <Works
-                name={portfolioitem.name}
-                image={portfolioitem.image}
-                introduction={portfolioitem.introduction}
-                title={portfolioitem.title}
-                language={portfolioitem.language}
-                url={portfolioitem.url}
-              />
-            )
-        })}
         </div>
-        </FadeIn.Up>
-      </div>
-    </div>
-  );
-  }
 
+        <div class="portfolio" id="works">
+          <h3>Works</h3>
+          <FadeIn.Up>
+            <div class="portfolio__list">
+              {portfolioList.map((portfolioitem)=>{
+                return(
+                  <Works
+                    name={portfolioitem.name}
+                    image={portfolioitem.image}
+                    introduction={portfolioitem.introduction}
+                    title={portfolioitem.title}
+                    language={portfolioitem.language}
+                    url={portfolioitem.url}
+                  />
+                )
+              })}
+            </div>
+          </FadeIn.Up>
+        </div>
+
+      </div>
+    );
+  }
 }
 
 export default App;
