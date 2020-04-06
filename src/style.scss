@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Oswald:wght@500&display=swap');
 @mixin clearfix{
   &:after {
     content: ".";
@@ -12,6 +13,7 @@
   height: 85vh;
   margin-left: auto;
   margin-right: auto;
+  font-family: 'Oswald', sans-serif;
   &__header{
     position: absolute;
     top: 20px;
@@ -33,6 +35,7 @@
           position: relative;
           text-decoration: none;
           text-shadow:2px 2px 3px #1844f5;
+          
         }
         a::after {
           position: absolute;
@@ -58,18 +61,19 @@
     position: absolute;
     box-sizing: border-box;
     z-index: 2;
-    font-family: 'Open Sans', sans-serif;
     font-weight: 40;
     text-align: center;
     margin-top:500px;
-    margin-left:600px;
-    padding-right: 600px;
+    margin-left:800px;
+    padding-right: 800px;
     color: black;
     width: 100%;
     background-color: white;
-    border-radius: 10px;
+    border-radius: 15px;
   }
 }
+
+
 .slider img{
   transform-origin: center top;
   transform: scale(1.2);
@@ -102,8 +106,10 @@
   padding-bottom: 16px;
   &__title{
     font-size:  80px;
+    font-family: 'Lobster', cursive;
   }
 }
+
 
 .main{
   height: 100vh;
@@ -347,6 +353,8 @@
     }
   }
 }
+
+
 .portfolio{
   height: 100vh;
   background-color: black;
@@ -386,6 +394,8 @@
     }
   }
 }
+
+
 .modal {
   position: fixed;
   top: 3px;
