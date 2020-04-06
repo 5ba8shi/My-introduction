@@ -71,7 +71,7 @@ class App extends React.Component {
             </div>
             <FadeIn.Right>
               <div class="main__contents__right">
-                <h5>Ryosuke Kobayashi</h5>
+                <h5>小林 亮介</h5>
                 <p>1991/02/09</p>
                 <p>兵庫県川西市生まれ</p>
                 <p>2014年3月、大阪経済大学経済学部経済学科 卒業</p>

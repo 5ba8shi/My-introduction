@@ -43,7 +43,7 @@
           bottom: 0;
           left: 0;
           width: 0;
-          height: 3px;
+          height: 5px;
           background: rgb(243, 33, 33);
           transition: all 0.3s ease 0s;
         }
@@ -201,8 +201,8 @@
               animation-fill-mode: forwards;
               border-radius: 7px;
               @keyframes anime0 {
-                0% {width: 0px; height: 20px; background-color: aqua;}
-                100% {width: 40%; height: 20px; background-color: #337ab7;}
+                0% {width: 0%; height: 20px; background-color: rgb(255, 212, 119);}
+                100% {width: 40%; height: 20px; background-color: #ff9900;}
                 }
             }
           }
@@ -230,8 +230,8 @@
               animation: anime1 5s ease  alternate;
               animation-fill-mode: forwards;
               @keyframes anime1 {
-                0% {width: 0%; height: 20px; background-color: aqua;}
-                100% {width: 30%; height: 20px; background-color: #337ab7;}
+                0% {width: 0%; height: 20px; background-color: rgb(255, 212, 119);}
+                100% {width: 30%; height: 20px; background-color: #ff9900;}
                 }
             }
           }
@@ -259,8 +259,8 @@
               animation: anime2 5s ease alternate;
               animation-fill-mode: forwards;
               @keyframes anime2 {
-                0% {width: 0%; height: 20px; background-color: aqua;}
-                100% {width: 30%; height: 20px; background-color: #337ab7;}
+                0% {width: 0%; height: 20px; background-color: rgb(255, 212, 119);}
+                100% {width: 30%; height: 20px; background-color: #ff9900;}
                 }
             }
           }
@@ -287,8 +287,8 @@
               animation: anime3 5s ease alternate;
               animation-fill-mode: forwards;
               @keyframes anime3 {
-                0% {width: 0%; height: 20px; background-color: aqua;}
-                100% {width: 35%; height: 20px;background-color: #337ab7;}
+                0% {width: 0%; height: 20px; background-color: rgb(255, 212, 119);}
+                100% {width: 35%; height: 20px; background-color: #ff9900;}
                 }
             }
           }
@@ -315,8 +315,8 @@
               animation: anime4 5s ease alternate;
               animation-fill-mode: forwards;
               @keyframes anime4 {
-                0% {width: 0%; height: 20px; background-color: aqua;}
-                100% {width: 45%; height: 20px; background-color: #337ab7;}
+                0% {width: 0%; height: 20px; background-color: rgb(255, 212, 119);}
+                100% {width: 45%; height: 20px; background-color: #ff9900;}
                 }
             }
           }
@@ -343,8 +343,8 @@
               animation: anime5 5s ease alternate;
               animation-fill-mode: forwards;
               @keyframes anime5 {
-                0% {width: 0%; height: 20px; background-color: aqua;}
-                100% {width: 20%; height: 20px; background-color: #337ab7;}
+                0% {width: 0%; height: 20px; background-color: rgb(255, 212, 119);}
+                100% {width: 20%; height: 20px; background-color: #ff9900;}
               }
             }
           }

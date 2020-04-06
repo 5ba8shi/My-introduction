@@ -4,7 +4,7 @@ class Skill extends React.Component{
   render(){
     return(
       <div>
-        <h3 class="main__contents__left__skills--h3">Skill</h3>
+        <h3 class="main__contents__left__skills--h3">プログラミング言語</h3>
         <div class="main__contents__left__skills clearfix">
         <div class="main__contents__left__skills__progress">
             <h4 class="main__contents__left__skills__progress--h4">HTML</h4>
