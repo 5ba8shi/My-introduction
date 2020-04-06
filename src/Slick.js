@@ -33,7 +33,6 @@ export default class Slick extends Component {
             </h2>
             <img src="photo2.jpg"/>
             <div class="anime-line"></div>
-            <h2>Hello</h2>
           </div>
 
           <div class="slider">
@@ -49,7 +48,6 @@ export default class Slick extends Component {
             </h2>
             <img src="photo3.jpg"/>
             <div class="anime-line"></div>
-            <h2>Hello</h2>
           </div>
 
           <div class="slider">
@@ -65,7 +63,6 @@ export default class Slick extends Component {
             </h2>
             <img src="photo4.jpeg"/>
             <div class="anime-line"></div>
-            <h2>Hello</h2>
           </div>
 
           <div class="slider">
@@ -81,7 +78,6 @@ export default class Slick extends Component {
             </h2>
             <img src="photo5.jpeg"/>
             <div class="anime-line"></div>
-            <h2>Hello</h2>
           </div>
 
           <div class="slider">
@@ -97,7 +93,6 @@ export default class Slick extends Component {
             </h2>
             <img src="photo6.jpeg"/>
             <div class="anime-line"></div>
-            <h2>Hello</h2>
           </div>
         </Slider>
       </div>

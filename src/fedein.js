@@ -8,6 +8,12 @@ export const Up = ({ children, delay, margin = "-20%" }) => (
   </InViewMonitor>
 )
 
+export const TopDown = ({ children, delay, margin = "-10%" }) => (
+  <InViewMonitor childPropsInView={{ isActive: true }} intoViewMargin={margin}>
+    <FadeInDown delay={delay}>{children}</FadeInDown>
+  </InViewMonitor>
+)
+
 export const Down = ({ children, delay, margin = "-20%" }) => (
   <InViewMonitor childPropsInView={{ isActive: true }} intoViewMargin={margin}>
     <FadeInDown delay={delay}>{children}</FadeInDown>

@@ -9,7 +9,9 @@
 }
 .slider{
   width: 100vw;
-  height: 80vh;
+  height: 90vh;
+  margin-left: auto;
+  margin-right: auto;
   &__header{
     position: absolute;
     top: 20px;
@@ -41,7 +43,6 @@
     z-index: 2;
     font-family: 'Open Sans', sans-serif;
     font-weight: 40;
-    display: inline-block;
     text-align: center;
     color: whitesmoke;
   }
@@ -71,28 +72,19 @@
 // }
 
 .black{
-  height: 20vh;
+  height: 10vh;
   width: 100%;
-  background-color: black;
-  -ms-writing-mode: tb-rl;
-  writing-mode: vertical-rl;
-  color: #D1D1D1;
-  
+  background-color: yellow;
   &__container{
     width: 100%;
     margin-right: 200px;
-    &__comment1{
-      padding-right: 15px;;
-      padding-left: 30px;
-      font-family: Georgia, 'Times New Roman', Times, serif;
-      margin-top: 10%;
-      text-align: initial;
-      width: 12%;
-      &__p{
-        font-size: 14px;
-        text-indent: 1em;
-        margin-left: 30px;
-      }
+    padding-top: 0.5px;
+    &--h1{
+      font-size: 20px;
+      color: #fff;
+      font-weight: 100;
+      font-family: 'Open Sans', sans-serif;
+      margin: 12px;
     }
   }
 }

@@ -50,9 +50,9 @@ class App extends React.Component {
     
     return (
       <div className="App" id="top">
-        <FadeIn.Down>
+        <FadeIn.TopDown>
           <Intro/>
-        </FadeIn.Down>
+        </FadeIn.TopDown>
 
         <FadeIn.Up>
           <Slick/>
@@ -62,7 +62,9 @@ class App extends React.Component {
           <div class="main__contents">
             <h1 class="main__contents__about">About</h1>
             <div class="main__contents__left">
-              <img src="small-otter.jpg" width="310px" height="230px"/>
+              <FadeIn.Left>
+                <img src="small-otter.jpg" width="310px" height="230px"/>
+              </FadeIn.Left>
               <FadeIn.Up>
                 <Skill/>
               </FadeIn.Up>
