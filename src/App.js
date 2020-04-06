@@ -72,16 +72,21 @@ class App extends React.Component {
             <FadeIn.Right>
               <div class="main__contents__right">
                 <h5>小林 亮介</h5>
-                <p>1991/02/09</p>
-                <p>兵庫県川西市生まれ</p>
-                <p>2014年3月、大阪経済大学経済学部経済学科 卒業</p>
-                <p class="about1">大学4回生の時にカナダへ3ヶ月留学</p>
-                <p>4回生を休学する</p>
-                <p>セブに英語とプログラミングを勉強するために留学</p>
-                <p>現在帰国しtechexpertに在学中</p>
+                <p>1991年&nbsp;2月9日</p>
+                <p>&emsp;兵庫県川西市生まれ</p>
+                <p>2014年&nbsp;3月</p>
+                <p>&emsp;大阪経済大学経済学部経済学科 卒業</p>
+                <p>2014年&nbsp;4月〜2014年&nbsp;11月</p>
+                <p>&emsp;ユニペックス㈱&emsp;営業事務に従事</p>
+                <p>2015年&nbsp;2月〜2018年&nbsp;7月</p>
+                <p>&emsp;㈱ケイエヌトレーディング&emsp;営業と海外仕入れに従事</p>
+                <p>2018年&nbsp;11月〜2019年&nbsp;10月</p>
+                <p>&emsp;㈱KSAインターナショナル&emsp;国際物流の営業</p>
+
+                <p></p>
                 <ul class="icon-ul">
                   {/* <li><FontAwesomeIcon icon={['fab', 'twitter']} /></li> */}
-                  <li><a href="mailto:yusukee0406@gmail.com"><FontAwesomeIcon icon={['fas', 'envelope']} /></a></li>
+                  <li><a href="mailto:o64.kobayashi.ryosuke@gmail.com"><FontAwesomeIcon icon={['fas', 'envelope']} /></a></li>
                   {/* <li><FontAwesomeIcon icon={['fab', 'instagram']} /></li> */}
                 </ul>
               </div>
