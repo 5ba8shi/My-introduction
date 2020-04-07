@@ -43,7 +43,7 @@ class App extends React.Component {
         introduction:"ReactでPortfolioを作成しました。シングルページで作ることでページを移動せずに内容が把握できるようにしました。",
         title:"React開発[Portfolio]",
         language:"React",
-        url:"#top"
+        url:"http://d3f1duuy3zpgs1.cloudfront.net/"
       }
     ];
     
