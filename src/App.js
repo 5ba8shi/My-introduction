@@ -24,7 +24,7 @@ class App extends React.Component {
       {
         name:"メルカリ",
         image:"merukari.jpg",
-        introduction:"チーム内で期日とチーム開発アプリです.課題ではありますが、スクラムを組み、チーム開発をするのは初めてだったので、最初は勝手がわかりませんでした。 メルカリのクローンサイトを作成し、チーム内で期日とスプリント目標を持ち、各自が責任をもって開発をしていくことで、チーム開発の流れを学びました。 いままで１人での開発が主だったのですが、技術力が違う中で、毎日のデイリースクラムや 週１回の勉強会を通じ、自分の技術力の向上はもちろん、アウトプットを積極的にしていくことで チームとしての底力を向上できたと思います。",
+        introduction:"6人、１チームでの開発。スクラムマスターを担当して、SNS認証、パンくずリスト、クレジットカード、マイページのビューの作成を行いました。そして週一回の勉強会を通じて自分の学んだ技術を発表することによりアウトプットを行いました。",
         title:"チーム開発［メルカリクローンサイト]",
         language:"HTML,Haml,scss,Ruby,Rails,javascript",
         url:"http://18.177.78.202/"
@@ -82,8 +82,6 @@ class App extends React.Component {
                 <p>&emsp;㈱ケイエヌトレーディング&emsp;営業と海外仕入れに従事</p>
                 <p>2018年&nbsp;11月〜2019年&nbsp;10月</p>
                 <p>&emsp;㈱KSAインターナショナル&emsp;国際物流の営業</p>
-
-                <p></p>
                 <ul class="icon-ul">
                   {/* <li><FontAwesomeIcon icon={['fab', 'twitter']} /></li> */}
                   <li><a href="mailto:o64.kobayashi.ryosuke@gmail.com"><FontAwesomeIcon icon={['fas', 'envelope']} /></a></li>
