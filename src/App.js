@@ -14,11 +14,27 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import * as FadeIn from "./fedein";
 import Works from './Works';
 import { Link, animateScroll as scroll } from "react-scroll";
-
+// 強制スクロール-------------------------------
+import 'react-app-polyfill/ie11';
+import * as Scroll from 'react-scroll';
+// -------------------------------強制スクロール
 library.add(fab, fas, far);
 
 class App extends React.Component {
-  
+  constructor(props) {
+    super(props);
+  }
+  componentDidMount() {
+    /*
+    <div name="foo"></div>のところまで移動させる
+    */
+    Scroll.scroller.scrollTo('foo',{
+      duration: 800,
+      delay: 0,
+      smooth: 'easeInOutQuart'
+    });
+  }
+
   render(){
     const portfolioList = [
       {
